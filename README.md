@@ -5,7 +5,7 @@ A BASIC NODEJS REST API BUILT USING EXPRESS, MONGODB AND JWT
 + git 
 + Mongodb
 + cmd, powershell, Terminal or bash
-+ POSTMAN or any other HTTPclient
++ POSTMAN or any other HTTPclient to test the API
 ### Features
 - JWT Authentication
 - CRUD operations // all the passwords of the created users are hashed for mongoDB
@@ -39,7 +39,7 @@ module.exports = {
     TOKEN_SEC:process.env.TOKEN_SEC||'secretKey',
     ADMIN_NAME:''//['an array of authorized users']
     /*
-    ADD AS MUCH CONFIG PROPS AS YOU LIKE FProOR YOUR APP, 
+    ADD AS MUCH CONFIG PROPS AS YOU LIKE FOR YOUR APP, 
 
     
     */
